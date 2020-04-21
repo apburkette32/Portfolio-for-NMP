@@ -82,12 +82,28 @@
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="images/bureau-lane-map-large.png" alt="Vintage map that has been georeferenced."></a>
+              <a href="#" data-toggle="modal" data-target="#LANE"><img class="card-img-top" src="images/bureau-lane-map-large.png" alt="Vintage map that has been georeferenced."></a>
               <div class="card-body">
                 <h4 class="card-title">
-                  <a href="#">LANE Map of 'Bureau' Responses</a>
+                  <a href="#" data-toggle="modal" data-target="#LANE">LANE Map of 'Bureau' Responses</a>
                 </h4>
                 <p class="card-text">The Linguistic Atlas of New England was published (LANE) as a series of lithograph maps in the mid-1930s. Featured here is the LANE map of responses to a question about the piece of furniture with drawers often found in bedrooms. The original LANE maps are rare and difficult to find. Using QGIS to georeference and add points to a high-resolution scan of a vintage LANE map, this concept represents a marriage between the old and the new.</p>
+              </div>
+            </div>
+          </div>
+          <!-- LANE Map of 'Bureau' Responses -->
+          <div id="LANE" class="modal fade " role="dialog">
+            <div class="modal-dialog modal-lg">
+              <!-- Modal content-->
+              <div class="modal-content bg-light">
+                <div class="modal-body text-dark">
+                  <img src="images/bureau-lane-map-large.png" width="100%" class="rounded">
+                  <h3 class="mt-2">Preview</h3>
+                  
+                </div>
+                <div class="modal-footer border-secondary border-0">
+                  <button type="button" class="btn btn-default text-light bg-secondary " data-dismiss="modal">Close</button>
+                </div>
               </div>
             </div>
           </div>
